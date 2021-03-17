@@ -1,0 +1,96 @@
+.adp-container-green{
+  background-color: rgb(84, 173, 147);
+}
+
+.adp-row-blue{
+  background-color: rgb(55, 55, 83);
+}
+.adp-debug-nav{
+  color: white;
+}
+.adp-text-blue{
+  color: rgb(55, 55, 83);
+  text-align: center;
+}
+.adp-jumbotron{
+  text-align: center;
+}
+
+.adp-text-space{
+  color: white;
+  text-transform: uppercase;
+}
+
+/* CONTAINER IMMAGINI */
+.container-w90{
+  width: 95%;
+  margin: auto;
+}
+
+.adp-color-img-1{
+ background-color: rgb(179, 70, 70);
+ border-radius: 10px;
+}
+
+.adp-color-img-2{
+  background-color: mediumturquoise;
+  border-radius: 10px;
+ }
+
+ .adp-color-img-3{
+  background-color: black;
+  border-radius: 10px;
+ }
+
+ .adp-color-img-4{
+  background-color: lightblue;
+  border-radius: 10px;
+ }
+
+ .adp-color-img-5{
+  background-color: rgb(47, 47, 150);
+  border-radius: 10px;
+ }
+ .adp-color-img-6{
+  background-color: rgb(151, 146, 137);
+  border-radius: 10px;
+ }
+
+/* Risoluzione XS */
+@media all and (max-width: 767px){
+  
+  .adp-text-space-xs{
+    height: 100px;
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+  }
+  .adp-img-space-xs{
+    height: 200px;
+    margin-top: 30px;
+    background-color: white;
+  }
+ 
+  .adp-text-xs{
+    color: white;
+    display: inline;
+  }
+  /* Container Immagini */
+  .adp-image-xs{
+    height: 250px;
+    margin-bottom: 25px;
+  }
+  
+}
+/* Risoluzione SM */
+@media all and (min-width: 768px){
+
+}
+/* Risoluzione MD */
+@media all and (min-width: 992px){
+
+}
+/* Risoluzione  LG*/
+@media all and (min-width: 1170px){
+
+}
