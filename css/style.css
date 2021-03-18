@@ -1,9 +1,28 @@
+/* COLORS */
 .adp-bg-green{
   background-color: #4ecfa6;
 }
-.adp-padding-30{
-  padding: 30px 0;
+.adp-text-white{
+  color:white;
 }
+.adp-text-blue{
+   color: #1f2d42;
+}
+.adp-text-green{
+  color: seagreen;
+}
+/* list */
+.adp-ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 40px;
+}
+.adp-ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Button */
 .adp-btn-xs{
   border: 1px solid white;
   border-radius: 2px;
@@ -20,11 +39,17 @@
   padding: 10px 10px;
   border-radius: 3px;
 }
-.adp-text-white{
-  color:white;
+.adp-btn-send a{
+  border-radius: 4px;
+  padding: 8px 8px;
+  border: 1px solid white;
+  color: white;
 }
-.adp-text-blue{
-   color: #1f2d42;
+
+/* Margin and Padding */
+
+.adp-padding-30{
+  padding: 30px 0;
 }
 .adp-padding-80{
   padding: 20px 0px 30px 0px;
@@ -32,6 +57,10 @@
 .adp-margin-bottom-20{
   margin-bottom: 20px;
 }
+
+
+
+
 .adp-wrapper-60{
   width: 60%;
   margin: 0 auto;
@@ -63,14 +92,17 @@
 }
 
 .adp-footer-top{
-  background-color: lightskyblue;
+  background-color: #384f75;
 }
 
 .adp-footer-bottom{
-  background-color: rgb(160, 97, 168);
+  background-color: #1f2d42;
 }
 
 /* TEXT */
+.adp-font-size{
+  font-size: 150%;
+}
 
 .adp-text-min-width{
    font-size: 270%;
@@ -103,4 +135,28 @@
 .adp-box img{
   width: 100%;
   border-radius: 10px;
+}
+
+.adp-input{
+  display: block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(221, 224, 228);
+  line-height: 40px;
+  width: 100%;
+  resize: none;
+}
+.adp-radius{
+  display: inline-block;
+  
+}
+.adp-radius i{
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  margin: 0 5px;
 }

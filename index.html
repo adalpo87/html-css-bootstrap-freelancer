@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   </head>
   <body>
 
@@ -20,10 +21,14 @@
       <div class="adp-header-top">
         <div class="container">
           <div class="row">
-            <div class="col-xs-6 text-uppercase">Start Bootstrap</div>
+            <div class="adp-font-size col-xs-6 text-uppercase">Start Bootstrap</div>
             <div class="col-xs-6 text-right">
             <nav class="hidden-xs">
-              menu lungo a destra
+              <ul class="adp-text-white adp-ul">
+                <li><a class="adp-font-size text-uppercase" href="#">Porfolio</a></li>
+                <li><a class="adp-font-size text-uppercase" href="#">About</a></li>
+                <li><a class="adp-font-size text-uppercase" href="#">Contact</a></li>
+              </ul>
             </nav>
             <div class="visible-xs">
               <a class="adp-btn-xs" href="#"><span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span></a>
@@ -112,7 +117,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 text-center adp-margin-bottom-20">
-              <h2 class="text-uppercase adp-text-white">Portfolio</h2>
+              <h2 class="text-uppercase adp-text-white">about</h2>
               <div class="adp-star">
                 <span class="adp-line adp-border-white"></span>
                 <span class="adp-text-white glyphicon glyphicon-star" aria-hidden="true"></span>
@@ -150,7 +155,11 @@
           <div class="row">
             <div class="col-xs-12 text-center adp-margin-bottom-20">
               <h2 class="text-uppercase ">contact me</h2>
-              <p>riga satanica</p>
+              <div class="adp-star">
+                <span class="adp-line adp-border-blue"></span>
+                <span class="adp-text-blue glyphicon glyphicon-star" aria-hidden="true"></span>
+                <span class="adp-line adp-border-blue"></span>
+              </div>
             </div>
           </div>
         </div>
@@ -159,9 +168,13 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12">
-                <p>QUESTO é IL FORM Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ratione accusantium sit. Fuga voluptates corporis commodi modi facere blanditiis omnis, aut optio iure nobis, consectetur consequatur eum in temporibus vero.</p>
-              </div>
-              
+                <form>
+                  <input type="text" class="adp-input" placeholder="Name">
+                  <input type="email" class="adp-input" placeholder="Email Address">
+                  <input type="number" class="adp-input" placeholder="Phone Number">
+                  <textarea name="Message" class="adp-margin-bottom-20 adp-input" cols="" rows="4" placeholder="Message"></textarea>
+                </form>
+              <div class="adp-btn-send"><a class="adp-bg-green" href="#">Send</a></div>
             </div>
           </div>
         </div>
@@ -181,9 +194,24 @@
       <div class="adp-footer-top adp-padding-80">
           <div class="container">
             <div class="row">
-              <div class="col-md-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam sequi veritatis, cupiditate quidem tempora rem perspiciatis temporibus blanditiis numquam id! Hic saepe laborum consectetur dolorum voluptas sit perferendis voluptatibus facilis.</div>
-              <div class="col-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In asperiores autem animi assumenda expedita praesentium libero voluptatum quod labore sequi, similique inventore enim nemo, iure eos laborum magnam. Sed, porro.</div>
-              <div class="col-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi totam exercitationem earum vel quod laudantium obcaecati hic maxime ipsam fuga blanditiis sequi dolorem vero, voluptates eaque iusto dolore quibusdam qui?</div>
+              <div class="col-md-4 adp-margin-bottom-20">
+                <h4 class="text-center text-uppercase adp-text-white">Location</h4>
+                <p class="text-center adp-text-white">2215 John Daniel Drive Clark, MO 54243</p>
+              </div>
+              <div class="col-md-4">
+                <h4 class="text-center text-uppercase adp-text-white">around the web</h4>
+                <div class="text-center adp-text-white adp-margin-bottom-20">
+
+                  <span class="adp-radius"><i class="fab fa-facebook-f"></i></span>
+                  <span class="adp-radius"><i class="fab fa-google-plus-g"></i></span>
+                  <span class="adp-radius"><i class="fab fa-twitter"></i></span>
+                  <span class="adp-radius"><i class="fab  fa-linkedin-in"></i></span>
+                 </div>
+                </div>
+              <div class="col-md-4">
+                <h4 class="text-uppercase adp-text-white text-center">about freelancer</h4>
+                <p class="adp-text-white text-center">Freelance is a free to user, open source Bootstrap theme created by <a class="adp-text-green" href="#">Start Bootstrap</a>.</p>
+              </div>
             </div>
           </div>
       </div>
@@ -191,7 +219,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12 text-center">
-                <p>copy</p>
+                <p class="adp-text-white">Copywright <i class="far fa-copyright"></i> Your Website 2019</p>
               </div>
             </div>
           </div>
