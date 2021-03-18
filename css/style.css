@@ -1,17 +1,37 @@
 .adp-bg-green{
-  background-color: green;
+  background-color: #4ecfa6;
 }
 .adp-padding-30{
   padding: 30px 0;
 }
-
+.adp-btn-xs{
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 2px 4px;
+  color: white;
+}
+.adp-btn-download{
+  margin-top: 25px;
+  background-color: #4ecfa6;
+}
+.adp-btn-download a{
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+.adp-text-white{
+  color:white;
+}
+.adp-text-blue{
+   color: #1f2d42;
+}
 .adp-padding-80{
-  padding: 80px 0;
+  padding: 20px 0px 30px 0px;
 }
 .adp-margin-bottom-20{
   margin-bottom: 20px;
 }
-
 .adp-wrapper-60{
   width: 60%;
   margin: 0 auto;
@@ -21,8 +41,10 @@
   top: 0;
   width: 100%;
   z-index: 999;
+  line-height: 80px;
   height: 80px;
-  background-color: mediumpurple;
+  color: white;
+  background-color: #1f2d42;
 }
 
 .adp-header-bottom{
@@ -31,19 +53,13 @@
 }
 
 .adp-jumbotron{
-  width: 80%;
+  width: 50%;
   max-width: 800px;
   margin: 0 auto;
-  background-color: lightblue;
-  min-height: 300px;
 }
 
 .adp-box{ /* momentaneo */
-  width: 100%;
-  height: 350px;
-  background-color: lightcoral;
   margin-bottom: 15px;
-  border-radius: 10px;
 }
 
 .adp-footer-top{
@@ -52,4 +68,39 @@
 
 .adp-footer-bottom{
   background-color: rgb(160, 97, 168);
+}
+
+/* TEXT */
+
+.adp-text-min-width{
+   font-size: 270%;
+   font-weight: 600;
+}
+
+/* riga satanica */
+
+.adp-star{
+  width: 50%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.adp-line{
+  display: inline-block;
+  width: 40px;
+  margin: 5px; 
+}
+
+.adp-border-white{
+  border-bottom: 1px solid white;
+}
+
+.adp-border-blue{
+  border-bottom: 1px solid #1f2d42;
+}
+
+/* img */
+.adp-box img{
+  width: 100%;
+  border-radius: 10px;
 }
