@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 /* COLORS */
 .adp-bg-green{
   background-color: #4ecfa6;
